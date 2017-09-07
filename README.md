@@ -11,6 +11,7 @@ Easy bot for star-ing or branch-ing a bunch of repositories given a query. Using
 
 ## Screenshots
 
-![Screenshot](images/star.PNG)
-
 ![Screenshot](images/branch.PNG)
+
+
+![Screenshot](images/star.PNG)
