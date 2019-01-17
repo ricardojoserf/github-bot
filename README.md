@@ -4,14 +4,42 @@ Easy bot for star-ing or branch-ing a bunch of repositories given a query. Using
 
 ## Usage
 
-*python main.py -n {USERNAME} -p {PASSWORD} -o branch -q {QUERY}*: **Branch repos containing that query**
+**Branch repos containing a query (-q):**
 
-*python main.py -n {USERNAME} -p {PASSWORD} -o star -q {QUERY}*: **Star repos containing that query**
+```
+python main.py -u {USERNAME} -p {PASSWORD} -o branch -q {QUERY}
+```
 
 
-## Screenshots
+**Star repos containing a query (-q):**
+
+```
+python main.py -u {USERNAME} -p {PASSWORD} -o star -q {QUERY}
+```
+
+
+## Examples
 
 ![Screenshot](images/branch.PNG)
 
 
 ![Screenshot](images/star.PNG)
+
+
+## Requirements
+
+Python 2.x:
+
+```
+pip install -r install/requirements.txt
+```
+
+Python 3.x:
+
+```
+pip3 install -r install/requirements.txt
+```
+
+## Note
+
+Tested both in Python2.x (2.7.15rc1) and Python 3.x (3.6.7)
